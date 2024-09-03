@@ -15,6 +15,8 @@ public class StartApplication {
         model.addAttribute("title", "This is a SpringBoot Static Web Application");
         model.addAttribute("msg", "Application Is Deployed To Kuberneets");
         model.addAttribute("msg", "Tested By Siva");
+        model.addAttribute("msg", "elysium");
+        
         return "index";
     }
 
